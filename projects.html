@@ -1,27 +1,41 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyek Saya</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">Tentang</a>
-    <a href="projects.html">Proyek</a>
-    <a href="contact.html">Kontak</a>
-  </div>
+  <header>
+    <h1>Proyek Saya</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
 
+  <main>
+    <section class="project">
+      <h2>Hosting Website di AWS S3</h2>
+      <p>Project ini merupakan website statis pertama yang saya deploy menggunakan AWS S3 dan CloudFront untuk distribusi global. </p>
+      <p><strong>Teknologi:</strong> HTML, CSS, AWS S3, CloudFront</p>
+      <a href="https://link-webkamu.com" target="_blank">Lihat Website</a>
+    </section>
 
-  <div class="container">
-    <h2>Proyek Saya</h2>
-    <ul>
-      <li>Membuat website statis menggunakan HTML & CSS</li>
-      <li>Hosting website di AWS S3</li>
-      <li>Deploy server EC2 dan menampilkan halaman "It Works"</li>
-    </ul>
-    <p>Saya akan terus menambahkan proyek baru seiring belajar cloud computing!</p>
-  </div>
+    <section class="project">
+      <h2>Deploy Website ke Vercel</h2>
+      <p>Saya mempelajari cara deploy website ke Vercel menggunakan akun GitHub dan hosting gratis.</p>
+      <p><strong>Teknologi:</strong> HTML, CSS, Vercel</p>
+      <a href="https://vercel-project.vercel.app" target="_blank">Lihat Website</a>
+    </section>
+
+    <!-- Tambahkan project lain di bawah sini -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Portofolio Kamu</p>
+  </footer>
 </body>
 </html>
